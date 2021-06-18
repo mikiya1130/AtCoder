@@ -1,3 +1,9 @@
+AtCoder用Docker環境  
+Python仕様  
+元リポジトリ：https://github.com/yamatia/atcoder_docker_sample  
+
+--以下オリジナル--
+
 # 説明
 
 atcoder用のvscode+docker+git環境構築ファイルです。  
@@ -174,8 +180,3 @@ atcoder_docker_sample
 
 8. __.gitignore__   
     GitHubで管理を行う際に、更新を反映しないファイルを指定できます。デフォルトではfield/contestsとtmpを指定しています。  
-
-
-
-        
-
