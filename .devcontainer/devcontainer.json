@@ -24,5 +24,7 @@
       // "vscode-icons-team.vscode-icons",
       // "ms-vscode.cpptools",
       // "austin.code-gnu-global"
+      "donjayamanne.githistory",
+      "oderwat.indent-rainbow",
     ],
 }
