@@ -3,7 +3,7 @@
     "context": "..",
     "dockerFile": "Dockerfile",
 
-    "settings": { 
+    "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
         "python.pythonPath": "/usr/local/bin/python",
         "python.linting.enabled": true,
@@ -18,11 +18,11 @@
     "remoteUser": "vscode",
 
     "extensions": [
-		"ms-python.python",
-		"coenraads.bracket-pair-colorizer-2",
-		"sanaajani.taskrunnercode",
-		"vscode-icons-team.vscode-icons",
-		"ms-vscode.cpptools",
-		"austin.code-gnu-global"
+      "ms-python.python",
+      "coenraads.bracket-pair-colorizer-2",
+      "sanaajani.taskrunnercode",
+      // "vscode-icons-team.vscode-icons",
+      // "ms-vscode.cpptools",
+      // "austin.code-gnu-global"
     ],
 }
