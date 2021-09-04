@@ -8,3 +8,5 @@ jupyter
 matplotlib
 online-judge-tools
 streamlit
+
+black

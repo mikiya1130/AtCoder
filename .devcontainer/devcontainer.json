@@ -13,7 +13,7 @@
 
     "appPort": [ 8501 ],
 
-    "postCreateCommand": "pip install -r requirements.txt && apt-get install -y gdb",
+    "postCreateCommand": "pip install -r requirements.txt && sudo apt-get install -y gdb",
 
     "remoteUser": "vscode",
 
@@ -22,8 +22,8 @@
       "coenraads.bracket-pair-colorizer-2",
       "sanaajani.taskrunnercode",
       // "vscode-icons-team.vscode-icons",
-      // "ms-vscode.cpptools",
-      // "austin.code-gnu-global"
+      "ms-vscode.cpptools",
+      "austin.code-gnu-global",
       "donjayamanne.githistory",
       "oderwat.indent-rainbow",
     ],
