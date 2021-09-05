@@ -1,49 +1,52 @@
 {
 	"input_line int(single)":{
-		"prefix":"input",
+		"prefix":"input_line int(single)",
 		"body":["int(input())"],
 		"description":"input int(single)",
 	},
 	"input_line int(multiple)":{
-		"prefix":"input",
+		"prefix":"input_line int(multiple)",
 		"body":["map(int,input().split())"],
 		"description":"input int(multiple)",
 	},
 	"input_line list(int)":{
-		"prefix":"input",
+		"prefix":"input_line list(int)",
 		"body":["list(map(int,input().split()))"],
 		"description":"input list(int)",
 	},
 	"input_line list(str)":{
-		"prefix":"input",
+		"prefix":"input_line list(str)",
 		"body":["input().split()"],
 		"description":"input list(int)",
 	},
 	"input_line tuple(int)":{
-		"prefix":"input",
+		"prefix":"input_line tuple(int)",
 		"body":["tuple(map(int,input().split()))"],
 		"description":"input tuple(int)",
 	},
 	"input_lines list(single_int)":{
-		"prefix":"input",
+		"prefix":"input_lines list(single_int)",
 		"body":["[int(input()) for _ in range($1)]"],
 		"description":"input_lines list(single_int)",
 	},
 	"input_lines list(multiple_int)":{
-		"prefix":"input",
+		"prefix":"input_lines list(multiple_int)",
 		"body":["[list(map(int,input().split())) for _ in range($1)]"],
 		"description":"input_lines list(multiple_int)",
 	},
 	"input_lines list(single_str)":{
-		"prefix":"input",
+		"prefix":"input_lines list(single_str)",
 		"body":["[input() for _ in range($1)]"],
 		"description":"input_lines list(single_int)",
 	},
 	"input_lines list(multiple_str)":{
-		"prefix":"input",
+		"prefix":"input_lines list(multiple_str)",
 		"body":["[input().split() for _ in range($1)]"],
 		"description":"input_lines list(multiple_int)",
 	},
-
-
+	"mod":{
+		"prefix": "MOD",
+		"body":[  "MOD = 1000000007" ],
+		"description": "10 ** 9 + 7"
+	}
 }
