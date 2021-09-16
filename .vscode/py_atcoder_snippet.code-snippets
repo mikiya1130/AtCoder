@@ -57,7 +57,7 @@
 	},
 	"input_lines list(multiple_str)":{
 		"prefix":"ismm",
-		"body":["[input().split() for _ in range($1)]"],
+		"body":["[input() for _ in range($1)]"],
 		"description":"input_lines list(multiple_str)",
 	},
 
